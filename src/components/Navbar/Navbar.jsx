@@ -14,6 +14,9 @@ const Navbar = () => {
 
   return (
     <nav className="mb-20 flex items-center justify-between py-9">
+
+      <Modal isOpen={openModal} setModalOpen={setOpenModal} />
+
       <div className="flex flex-shrink-0 items-center">
         <a href="#">
           <img width={75} src={logo} alt="Logo" />
@@ -47,23 +50,21 @@ const Navbar = () => {
         </ul>
       </div>
 
-      <Modal isOpen={openModal} setModalOpen={setOpenModal} />
-
       <div className="hidden lg:flex items-center justify-center gap-4 text-2xl">
         <a
           target="_blank"
           href="https://www.linkedin.com/in/souza-undefined-706174280/"
         >
-          <FaLinkedin />
+          <FaLinkedin className="text-white hover:text-violet-300 transition transform hover:scale-105" />
         </a>
         <a target="_blank" href="https://github.com/Souzinhaaz">
-          <FaGithub />
+          <FaGithub className="text-white hover:text-violet-300 transition transform hover:scale-105" />
         </a>
         <a target="_blank" href="https://www.instagram.com/souzalzx/">
-          <FaInstagram />
+          <FaInstagram className="text-white hover:text-violet-300 transition transform hover:scale-105" />
         </a>
         <a target="_blank" href="https://x.com/souzinhaaz">
-          <FaSquareXTwitter />
+          <FaSquareXTwitter className="text-white hover:text-violet-300 transition transform hover:scale-105" />
         </a>
       </div>
     </nav>
