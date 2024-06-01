@@ -22,7 +22,7 @@ const iconVariants = (duration) => ({
 
 const Technologies = () => {
   return (
-    <div className="border-b border-neutral-800 pb-24">
+    <section className="border-b border-neutral-800 pb-24" id="technologies">
       <motion.h2
         whileInView={{ opacity: 1, y: 0 }}
         initial={{ opacity: 0, y: -100 }}
@@ -86,7 +86,7 @@ const Technologies = () => {
           <FaPhp className="text-7xl text-purple-500" />
         </motion.div>
       </motion.div>
-    </div>
+    </section>
   );
 };
 

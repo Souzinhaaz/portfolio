@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 const Experience = () => {
   return (
-    <div className="border-b border-neutral-900 pb-4">
+    <section className="border-b border-neutral-900 pb-4" id="experience">
       <motion.h2
         whileInView={{ opacity: 1, y: 0 }}
         initial={{ opacity: 0, y: -100 }}
@@ -48,7 +48,7 @@ const Experience = () => {
           </div>
         ))}
       </div>
-    </div>
+    </section>
   );
 };
 
