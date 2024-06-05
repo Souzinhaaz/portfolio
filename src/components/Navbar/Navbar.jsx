@@ -53,7 +53,7 @@ const Navbar = () => {
       <div className="hidden lg:flex items-center justify-center gap-4 text-2xl">
         <a
           target="_blank"
-          href="www.linkedin.com/in/souzinhaaz"
+          href="www.linkedin.com/in/souzinhaaz/"
         >
           <FaLinkedin className="text-white hover:text-violet-300 transition transform hover:scale-105" />
         </a>
