@@ -33,19 +33,19 @@ const Navbar = () => {
       <div className="hidden w-full lg:block md:w-auto" id="navbar-default">
         <ul className="flex gap-10">
           <li>
-            <a href="#about" className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-violet-300 md:p-0 dark:text-white md:dark:hover:text-violet-300 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent transition transform hover:scale-105 transition-transform scroll-smooth" aria-current="page">About</a>
+            <a href="#about" className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-violet-300 md:p-0 dark:text-white md:dark:hover:text-violet-300 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent transform hover:scale-105 transition-transform scroll-smooth" aria-current="page">About</a>
           </li>
           <li>
-            <a href="#technologies" className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-violet-300 md:p-0 dark:text-white md:dark:hover:text-violet-300 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent transition transform hover:scale-105 transition-transform scroll-smooth">Technologies</a>
+            <a href="#technologies" className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-violet-300 md:p-0 dark:text-white md:dark:hover:text-violet-300 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent transform hover:scale-105 transition-transform scroll-smooth">Technologies</a>
           </li>
           <li>
-            <a href="#experience" className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-violet-300 md:p-0 dark:text-white md:dark:hover:text-violet-300 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent transition transform hover:scale-105 transition-transform scroll-smooth">Experience</a>
+            <a href="#experience" className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-violet-300 md:p-0 dark:text-white md:dark:hover:text-violet-300 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent transform hover:scale-105 transition-transform scroll-smooth">Experience</a>
           </li>
           <li>
-            <a href="#projects" className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-violet-300 md:p-0 dark:text-white md:dark:hover:text-violet-300 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent transition transform hover:scale-105 transition-transform scroll-smooth">Projects</a>
+            <a href="#projects" className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-violet-300 md:p-0 dark:text-white md:dark:hover:text-violet-300 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent transform hover:scale-105 transition-transform scroll-smooth">Projects</a>
           </li>
           <li>
-            <a href="#contact" className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-violet-300 md:p-0 dark:text-white md:dark:hover:text-violet-300 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent transition transform hover:scale-105 transition-transform scroll-smooth">Contact</a>
+            <a href="#contact" className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-violet-300 md:p-0 dark:text-white md:dark:hover:text-violet-300 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent transform hover:scale-105 transition-transform scroll-smooth">Contact</a>
           </li>
         </ul>
       </div>
