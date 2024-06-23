@@ -1,7 +1,7 @@
 import { FaLinkedin, FaGithub, FaInstagram, FaTwitter } from 'react-icons/fa';
 import { MdClose } from "react-icons/md";
 
-export const Modal = ({ isOpen, setModalOpen }) => {
+export const Modal = ({ isOpen, setModalOpen, translate }) => {
   if (!isOpen) {
     return null;
   }
@@ -28,27 +28,27 @@ export const Modal = ({ isOpen, setModalOpen }) => {
               <ul className="flex flex-col gap-4 text-center">
                 <li>
                   <a href="#about" onClick={() => setModalOpen(false)} className="block py-2 px-3 border-b border-white-800 text-white rounded hover:bg-gray-100 dark:hover:bg-gray-700 dark:hover:text-white transition transform hover:scale-105">
-                    About
+                    {translate ? "Sobre" : "About"}
                   </a>
                 </li>
                 <li>
                   <a href="#technologies" onClick={() => setModalOpen(false)} className="block py-2 px-3 border-b border-white-800 text-white rounded hover:bg-gray-100 dark:hover:bg-gray-700 dark:hover:text-white transition transform hover:scale-105">
-                    Technologies
+                    {translate ? "Tecnologias" : "Technologies"}
                   </a>
                 </li>
                 <li>
                   <a href="#experience" onClick={() => setModalOpen(false)} className="block py-2 px-3 border-b border-white-800 text-white rounded hover:bg-gray-100 dark:hover:bg-gray-700 dark:hover:text-white transition transform hover:scale-105">
-                    Experience
+                    {translate ? "Experiência" : "Experience"}
                   </a>
                 </li>
                 <li>
                   <a href="#projects" onClick={() => setModalOpen(false)} className="block py-2 px-3 border-b border-white-800 text-white rounded hover:bg-gray-100 dark:hover:bg-gray-700 dark:hover:text-white transition transform hover:scale-105">
-                    Projects
+                    {translate ? "Projetos" : "Projects"}
                   </a>
                 </li>
                 <li>
                   <a href="#contact" onClick={() => setModalOpen(false)} className="block py-2 px-3 border-b border-white-800 text-white rounded hover:bg-gray-100 dark:hover:bg-gray-700 dark:hover:text-white transition transform hover:scale-105">
-                    Contact
+                    {translate ? "Contato" : "Contact"}
                   </a>
                 </li>
               </ul>
