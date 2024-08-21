@@ -1,6 +1,6 @@
 import { HERO_CONTENT } from "../constants/index";
 import { TRANSLATE_HERO_CONTENT } from "../constants/index";
-import profilePic from "../assets/fotoresort.jpg";
+import profilePic from "../assets/foto_perfil.jpg";
 import { motion } from "framer-motion";
 
 const container = (delay) => ({
