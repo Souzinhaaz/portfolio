@@ -100,7 +100,7 @@ export const TRANSLATE_PROJECTS = [
 ];
 
 export const CONTACT = {
-  address: "Bom Jesus da Lapa, BA",
-  phoneNo: "+55 (77) 99915-5669",
+  address: "Goiânia, Setor Bueno, BA",
+  phoneNo: "+55 (48) 99194-7399",
   email: "gustavosouzabjl@gmail.com",
 };
